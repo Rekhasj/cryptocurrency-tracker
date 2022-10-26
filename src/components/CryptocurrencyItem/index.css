@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+
+.item-card {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+.currency-logo {
+  height: 20px;
+  width: 20px;
+}
+.currency-name {
+  padding-left: 10px;
+}
+.value-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
